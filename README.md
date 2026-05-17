@@ -65,3 +65,18 @@ DB_NAME=actividad3_db
 
 ```
 
+### Paso 6: Crear la base de datos
+```bash
+# Conectar a MySQL
+mysql -u root -p
+
+# Dentro de MySQL, ejecutar:
+CREATE DATABASE actividad3_db;
+EXIT;
+...
+
+### Paso 7: Ejecutar el script
+```bash
+python crear_poblarbd.py
+...
+

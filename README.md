@@ -47,6 +47,7 @@ Linux / macOS	source .venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
 ### Paso 5: Configurar variables de entorno
 ```bash
 # Copiar archivo de ejemplo
@@ -73,10 +74,12 @@ mysql -u root -p
 # Dentro de MySQL, ejecutar:
 CREATE DATABASE actividad3_db;
 EXIT;
-...
+```
 
 ### Paso 7: Ejecutar el script
 ```bash
 python crear_poblarbd.py
-...
+```
+
+
 
